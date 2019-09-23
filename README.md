@@ -1,5 +1,5 @@
 # Saliency Detection
-Saliency is the process of locating important parts of an image. It is an extremely fast algorithm compared to larger detection algorithms. To increase frame rate, it might be worth considering passing a frame initially through a saliency detector, and then apply detection algorithms on the regions of interest.
+Saliency is the process of locating important parts of an image. It is extremely fast compared to larger detection algorithms. To increase frame rate, it might be worth considering passing a frame initially through a saliency detector, and then apply detection algorithms on the regions of interest.
 
 
 Using openCV's saliency module, we can use a static saliency detection algorithm on an image
