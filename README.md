@@ -1,0 +1,2 @@
+# Saliency Map
+Saliency is the process of locating important parts of an image. It is an extremely fast algorithm compared to larger detection algorithms. To increase frame rate, it might be worth considering passing a frame initially through a saliency detector, and then apply detection algorithms on the region of interest.
